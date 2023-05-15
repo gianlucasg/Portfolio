@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className='left-card-container-content'>
             <div className='home-profile-text'>
-                <Avatar alt="GG" src="./profile.jpeg" sx={{marginLeft:'20px',width: 150, height: 150}}/>
+                <Avatar alt="GG" src="./#/profile.jpeg" sx={{marginLeft:'20px',width: 150, height: 150}}/>
                 <div className='profile-text'>
                     <h1 className='text-page'>Gianlucas</h1>
                     <p className='text-page'>⚛️ Full Stack Web Developer - Ruby on Rails - React</p>
