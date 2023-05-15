@@ -17,9 +17,9 @@ function App() {
           <div class='container-flex'>
             <Box class='card-left'>
               <Routes>
-                <Route index path="/" element={<Home/>} />
-                <Route index path="/projects" element={<Projects/>} />
-                <Route index path="/hireme" element={<Hireme/>} />
+                <Route index path="portfolio/" element={<Home/>} />
+                <Route index path="portfolio/projects" element={<Projects/>} />
+                <Route index path="portfolio/hireme" element={<Hireme/>} />
               </Routes>
             </Box>
             <Box class='card-right'>
