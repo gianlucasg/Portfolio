@@ -14,7 +14,7 @@ function CardProjects({img,name,description,categories,link}){
             <CardActionArea href={link} target="_blank">
                 <CardMedia
                 component="img"
-                image={'./portfolio/#/' + img}
+                image={'.' + img}
                 alt="Project Thumbnail"
                 />
                 <CardContent>
